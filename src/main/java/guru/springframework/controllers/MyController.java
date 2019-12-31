@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class MyController {
-
+    
     private GreetingService greetingService;
 
     public MyController(GreetingService greetingService) {
